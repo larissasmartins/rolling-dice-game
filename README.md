@@ -8,13 +8,13 @@
 <p align="center">HTML5, CSS3 and Javascript</p align="center">
 
 <h4 align="center">Features:</h4align="center">
-1. Players can roll the dice and see their total score;
-2. The game keeps track of who reach 100 points accumulated;
-3. The game can be reset to start a new round;
+<p align="center">1. Players can roll the dice and see their total score; <br>
+2. The game keeps track of who reach 100 points accumulated; <br>
+3. The game can be reset to start a new round;</p> 
 
 <h4 align="center">How to play:</h4align="center">
-1. Open the game in your web browser;
-2. Choose a friend to play with;
-2. First player click on the "Roll Dice" button to roll the dice
-3. See your score and decide if you're rolling the dice more times or hold that points and give the change for the next player;
-4. Click on the "Reset" button to start a new round;
+<p align="center">1. Open the game in your web browser; <br>
+2. Choose a friend to play with; <br>
+2. First player click on the "Roll Dice" button to roll the dice; <br> 
+3. See your score and decide if you're rolling the dice more times or hold that points and give the change for the next player; <br>
+4. Click on the "Reset" button to start a new round;</p>
