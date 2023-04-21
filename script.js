@@ -31,6 +31,13 @@ const initGame = function () {
     playerElement0.classList.add('player--active');
     playerElement1.classList.remove('player--active');
     playing = true;
+
+    playerElement0.classList.remove('player--winner');
+    playerElement1.classList.remove('player--winner');
+
+    document.getElementById(`current--${activePlayer}`).textContent = 0;
+    scores[activePlayer] = 0;
+    document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
 };
 
 initGame();
@@ -63,3 +70,26 @@ btnRoll.addEventListener('click', function () {
         }
     }
 });
+
+btnHold.addEventListener('click', function () {
+    if (playing) {
+        // add current score to current player
+        scores[activePlayer] += currentScore;
+        document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
+
+        // check if there's a winner 
+        if (scores[activePlayer] >= 20) {
+            playing = false;
+            const winner = document.querySelector(`.player--${activePlayer}`);
+            winner.classList.add('player--winner');
+            winner.classList.remove('player--active');
+            diceElement.classList.add('hidden');
+            currentScore = 0;
+        } else {
+            switchPlayer();
+        }
+    }
+});
+
+// Set function to the New Game button
+btnNew.addEventListener('click', initGame);
