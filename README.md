@@ -5,7 +5,7 @@
 <p align="center">The Rolling Dice Game can be played by two players. The goal of the game is to be the first player to reach 100 points. Each player takes turns rolling the dice and accumulating points based on the total of the dice rolls. The player can continue to roll the dice as many times as they want and by clicking the "hold" button, the player's turn ends and their accumulated points are added to their overall score. However, if a roll results in a value of one, the player's accumulated points for that turn are reset to zero and their turn ends. The turn then passes to the next player, who can start rolling the dice to accumulate their own points. The game continues in this way until one player reaches the goal of 100 points and wins the game!</p>
 
 <h4 align="center">Technologies used for the project:</h4 align="center">
-<p align="center">HTML5, CSS3 and Javascript</p align="center">
+<p align="center">HTML5, CSS3 and JavaScript</p align="center">
 
 <h4>Features:</h4>
 <p>1. Players can roll the dice and see their total score; <br>
